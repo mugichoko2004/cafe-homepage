@@ -491,3 +491,93 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  :root {
+    --spacing-section: 60px;
+  }
+
+  body {
+    line-height: 1.8;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+
+  /* Hero Section Mobile Fix */
+  .hero {
+    height: auto;
+    min-height: 60vh;
+    padding: 40px 0;
+  }
+
+  .hero-img {
+    object-fit: contain;
+    opacity: 0.6;
+  }
+
+  .hero-content {
+    padding-top: 40px;
+    /* Reset extreme padding */
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .logo-en {
+    font-size: 1rem;
+  }
+
+  .catchcopy {
+    font-size: 1.2rem;
+  }
+
+  /* Global Navigation Mobile Fix */
+  .global-nav {
+    padding: 15px 0;
+  }
+
+  .global-nav ul {
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    padding: 0 10px;
+  }
+
+  .global-nav a {
+    font-size: 0.9rem;
+  }
+
+  /* Vibe Slideshow Mobile Fix */
+  .vibe-slideshow {
+    height: 250px;
+  }
+
+  /* Menu Details Mobile Fix */
+  .menu-details {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .menu-category h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Access Mobile Fix */
+  .map-placeholder {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    font-size: 2.5rem;
+  }
+
+  .hero-content {
+    padding-top: 300px;
+  }
+}
