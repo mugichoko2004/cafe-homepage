@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --color-bg: #F5F5DC;
     /* Ivory / Cosmic Latte */
@@ -21,6 +25,8 @@ body {
     /* Generous line height for a relaxed feel */
     letter-spacing: 0.05em;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    /* 横スクロールを防止 */
 }
 
 h1,
